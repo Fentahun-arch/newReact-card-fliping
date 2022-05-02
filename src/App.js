@@ -12,6 +12,7 @@ const App = () => {
       <div className='container'>
         <div className='card'>
           <div className='inner-box'>
+            <h1>Rotating Sign up and Sign in Form</h1>
             <ReactCardFlip isFlipped={isFlipped} flipDirection='horizontal'>
               <div className='card-front'>
                 <h1>Sign In</h1>
